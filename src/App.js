@@ -3,7 +3,7 @@ import './App.css';
 import io from 'socket.io-client'
 import Chat from './Chat';
 
-const socket = io.connect("https://enigmatic-brook-31531.herokuapp.com/")
+const socket = io.connect("https://hubmine-chat-rlg.herokuapp.com/")
 
 const App=()=>{
   const [username, setUsername] = useState("")
